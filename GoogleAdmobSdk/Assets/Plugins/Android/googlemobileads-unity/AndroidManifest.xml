@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This Google Mobile Ads plugin library manifest will get merged with your
+application's manifest, adding the necessary metadata
+required for displaying ads.
+com.google.unity => com.Milk.GoogleAdmobSdk
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.unity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <application>
+    <!-- Your AdMob App ID will look similar to this
+        sample ID: ca-app-pub-3940256099942544~3347511713 -->
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="ca-app-pub-2311179396200958~7367939078"/>
+  </application>
+</manifest>
